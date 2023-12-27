@@ -4,7 +4,7 @@ const assert = chai.assert;
 suite("Unit Tests", function () {
   suite("Basic Assertions", function () {
     // #1
-    test.only("#isNull, #isNotNull", function () {
+    test("#isNull, #isNotNull", function () {
       assert.isNull(
         null,
         "This is an optional error description - e.g. null is null"
